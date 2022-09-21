@@ -36,6 +36,8 @@ namespace StudentGradesApp
                 if (row.IdentificationNumber.ToString() == number && row.Pin.ToString() == pin && row.Username.ToString() == username)
                 {
                     MessageBox.Show("Login Successful");
+                    Form form = new Overview();
+                    form.Show();
                     this.Close();
                     break;
                 }
