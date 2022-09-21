@@ -26,7 +26,7 @@ namespace StudentGradesApp
             string number = tb_identification.Text;
             string pin = tb_pin.Text;
 
-            
+
             StudentGradesDataSet.StudentsDataTable aaaaa = new StudentGradesDataSet.StudentsDataTable();
             StudentsTableAdapter bbbbb = new StudentsTableAdapter();
             bbbbb.Fill(aaaaa);
@@ -42,6 +42,8 @@ namespace StudentGradesApp
                 else
                 {
                     MessageBox.Show("Login Failed");
+                    tb_identification.Clear();
+                    tb_pin.Clear();
                     break;
                 }
             }
