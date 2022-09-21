@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -21,9 +22,9 @@ namespace StudentGradesApp
 
         private void bttn_login_Click(object sender, EventArgs e)
         {
-            string username = lbl_user.ToString();
-            string number = lbl_number.ToString();
-            string pin = lbl_pin.ToString();
+            string username = tb_user.Text;
+            string number = tb_identification.Text;
+            string pin = tb_pin.Text;
 
             
             StudentGradesDataSet.StudentsDataTable aaaaa = new StudentGradesDataSet.StudentsDataTable();
@@ -32,7 +33,7 @@ namespace StudentGradesApp
 
             foreach (StudentGradesDataSet.StudentsRow row in aaaaa.Rows)
             {
-                if (row.IdentificationNumber.ToString() == number && row.Pin.ToString() == pin && row.Username == username)
+                if (row.IdentificationNumber.ToString() == number && row.Pin.ToString() == pin && row.Username.ToString() == username)
                 {
                     MessageBox.Show("Login Successful");
                 }

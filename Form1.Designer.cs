@@ -31,8 +31,8 @@
             this.tb_user = new System.Windows.Forms.TextBox();
             this.lbl_user = new System.Windows.Forms.Label();
             this.lbl_number = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.tb_identification = new System.Windows.Forms.TextBox();
+            this.tb_pin = new System.Windows.Forms.TextBox();
             this.lbl_pin = new System.Windows.Forms.Label();
             this.bttn_login = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -62,19 +62,19 @@
             this.lbl_number.TabIndex = 2;
             this.lbl_number.Text = "Identification number";
             // 
-            // textBox1
+            // tb_identification
             // 
-            this.textBox1.Location = new System.Drawing.Point(238, 191);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(278, 20);
-            this.textBox1.TabIndex = 3;
+            this.tb_identification.Location = new System.Drawing.Point(238, 191);
+            this.tb_identification.Name = "tb_identification";
+            this.tb_identification.Size = new System.Drawing.Size(278, 20);
+            this.tb_identification.TabIndex = 3;
             // 
-            // textBox2
+            // tb_pin
             // 
-            this.textBox2.Location = new System.Drawing.Point(238, 232);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(278, 20);
-            this.textBox2.TabIndex = 5;
+            this.tb_pin.Location = new System.Drawing.Point(238, 232);
+            this.tb_pin.Name = "tb_pin";
+            this.tb_pin.Size = new System.Drawing.Size(278, 20);
+            this.tb_pin.TabIndex = 5;
             // 
             // lbl_pin
             // 
@@ -101,9 +101,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.bttn_login);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.tb_pin);
             this.Controls.Add(this.lbl_pin);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.tb_identification);
             this.Controls.Add(this.lbl_number);
             this.Controls.Add(this.lbl_user);
             this.Controls.Add(this.tb_user);
@@ -119,8 +119,8 @@
         private System.Windows.Forms.TextBox tb_user;
         private System.Windows.Forms.Label lbl_user;
         private System.Windows.Forms.Label lbl_number;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox tb_identification;
+        private System.Windows.Forms.TextBox tb_pin;
         private System.Windows.Forms.Label lbl_pin;
         private System.Windows.Forms.Button bttn_login;
     }
