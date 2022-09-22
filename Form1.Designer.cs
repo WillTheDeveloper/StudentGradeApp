@@ -35,6 +35,7 @@
             this.tb_pin = new System.Windows.Forms.TextBox();
             this.lbl_pin = new System.Windows.Forms.Label();
             this.bttn_login = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // tb_user
@@ -95,11 +96,22 @@
             this.bttn_login.UseVisualStyleBackColor = true;
             this.bttn_login.Click += new System.EventHandler(this.bttn_login_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(324, 39);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "Student Grades App";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.bttn_login);
             this.Controls.Add(this.tb_pin);
             this.Controls.Add(this.lbl_pin);
@@ -123,6 +135,7 @@
         private System.Windows.Forms.TextBox tb_pin;
         private System.Windows.Forms.Label lbl_pin;
         private System.Windows.Forms.Button bttn_login;
+        private System.Windows.Forms.Label label1;
     }
 }
 

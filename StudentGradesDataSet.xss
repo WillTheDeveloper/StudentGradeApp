@@ -8,31 +8,31 @@
   <Shapes>
     <Shape ID="DesignTable:Students" ZOrder="6" X="573" Y="270" Height="229" Width="196" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="178" />
     <Shape ID="DesignTable:Exams" ZOrder="5" X="143" Y="39" Height="191" Width="181" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="140" />
-    <Shape ID="DesignTable:Locations" ZOrder="2" X="215" Y="320" Height="172" Width="200" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="121" />
-    <Shape ID="DesignTable:Subjects" ZOrder="4" X="856" Y="103" Height="115" Width="193" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="64" />
+    <Shape ID="DesignTable:Locations" ZOrder="2" X="132" Y="331" Height="172" Width="200" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="121" />
+    <Shape ID="DesignTable:Subjects" ZOrder="4" X="404" Y="52" Height="115" Width="193" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="64" />
   </Shapes>
   <Connectors>
     <Connector ID="DesignRelation:Exams_Subjects" ZOrder="3" LineWidth="11">
       <RoutePoints>
         <Point>
           <X>324</X>
-          <Y>160</Y>
+          <Y>109</Y>
         </Point>
         <Point>
-          <X>856</X>
-          <Y>160</Y>
+          <X>404</X>
+          <Y>109</Y>
         </Point>
       </RoutePoints>
     </Connector>
     <Connector ID="DesignRelation:Exams_Locations" ZOrder="1" LineWidth="11">
       <RoutePoints>
         <Point>
-          <X>269</X>
+          <X>186</X>
           <Y>230</Y>
         </Point>
         <Point>
-          <X>269</X>
-          <Y>320</Y>
+          <X>186</X>
+          <Y>331</Y>
         </Point>
       </RoutePoints>
     </Connector>

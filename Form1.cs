@@ -37,9 +37,8 @@ namespace StudentGradesApp
                 {
                     MessageBox.Show("Login Successful");
                     Form form = new Overview();
+                    /*Form1.ActiveForm.Close();*/
                     form.Show();
-                    this.Close();
-                    break;
                 }
                 else
                 {
